@@ -1,0 +1,39 @@
+POST localhost:8080/school/biolka
+Content-Type: application/json
+
+{
+  "classNumber": 13,
+
+  "classType": "biology",
+
+  "classHeadTeacher": {
+    "teacherId": 15,
+  "firstName": "Aldona",
+  "lastName": "Widera",
+
+  "subjectTaught": [
+    "math",
+    "biology"],
+
+    "teacherAddress": "Siemianowice"},
+
+"studentOnDuty":
+  {
+    "studentID": 172,
+    "firstName": "karol",
+    "lastName":  "gawel",
+    "dateOfBirth": "2023-09-27",
+    "studentAddress": "Siemianowice"
+
+  },
+
+"classDimensionLength": 17,
+
+"classDimensionWidth": 13,
+
+"classMaxPersons": 32
+
+}
+
+###
+GET localhost:8080/school/biolka
